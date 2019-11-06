@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92AF7005546A21E71EA2F5D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7A39910E18CD0747AC70 /* SceneDelegate.swift */; };
+		92AF7063DABCABE2B1406EA8 /* UnstableAtomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7BE11690B3D674157FE2 /* UnstableAtomViewCell.swift */; };
+		92AF71AD996B7D672B5DBC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AF7BBA3B2AF16459030926 /* Assets.xcassets */; };
+		92AF7264252D54B6627A192B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7B4DF4A7C3988A80CBFA /* ViewController.swift */; };
+		92AF75D67A46E6C770565190 /* Unstable_AtomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7B9AE059B97CF46D6EC7 /* Unstable_AtomsUITests.swift */; };
+		92AF76D409E82CCAAD6FD1E7 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7D71089E2083BBA25E93 /* Coordinate.swift */; };
+		92AF77CE25864B956061F7DB /* UnstableAtoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF730D2DA2C5AA9BFE0D56 /* UnstableAtoms.swift */; };
+		92AF77CE43BD07C51FEEC864 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7A79C2AD1B0F0837A08E /* Player.swift */; };
+		92AF77CEBB8A780044AC5F73 /* UnstableAtomsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7D51A72C9232BB41AD26 /* UnstableAtomsGame.swift */; };
+		92AF78CD457502D8F27F0969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AF76869EDEF57D69D66E15 /* Main.storyboard */; };
+		92AF7950D3E09655ACE06A8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7417B1E4D302D78380C3 /* AppDelegate.swift */; };
+		92AF7C2CA8E7F2C6AAD7D65A /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF7EB2C2295F36EC54B4DD /* Field.swift */; };
+		92AF7C762AA4CBB14796FB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AF7991500BADCFD10BEB6E /* LaunchScreen.storyboard */; };
+		92AF7E48E3258E637C73B7F5 /* Unstable_AtomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF79E8B2F2E200D6017D1D /* Unstable_AtomsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92AF7437B779D39D698B2E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92AF7DD28C5B7AB9FD1A8397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92AF7764A496667EBCE9C5A9;
+			remoteInfo = "Unstable Atoms";
+		};
+		92AF7869785BCA7E00389747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92AF7DD28C5B7AB9FD1A8397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92AF7764A496667EBCE9C5A9;
+			remoteInfo = "Unstable Atoms";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92AF711E1B25A0CD7B3FDE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		92AF7174D55941A985E75666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92AF72E5D7C8F0DD4E68F840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		92AF730D2DA2C5AA9BFE0D56 /* UnstableAtoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnstableAtoms.swift; sourceTree = "<group>"; };
+		92AF73B8E158033C0C4C78B7 /* Unstable AtomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unstable AtomsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AF7417B1E4D302D78380C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92AF742C49B758D06C1326AE /* Unstable AtomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unstable AtomsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AF78991AA4DECDB6D55524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		92AF79E8B2F2E200D6017D1D /* Unstable_AtomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unstable_AtomsTests.swift; sourceTree = "<group>"; };
+		92AF7A39910E18CD0747AC70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92AF7A79C2AD1B0F0837A08E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		92AF7B4DF4A7C3988A80CBFA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92AF7B9AE059B97CF46D6EC7 /* Unstable_AtomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unstable_AtomsUITests.swift; sourceTree = "<group>"; };
+		92AF7BBA3B2AF16459030926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92AF7BE11690B3D674157FE2 /* UnstableAtomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnstableAtomViewCell.swift; sourceTree = "<group>"; };
+		92AF7CF1BD689EC3605A8820 /* Unstable Atoms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unstable Atoms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AF7D51A72C9232BB41AD26 /* UnstableAtomsGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnstableAtomsGame.swift; sourceTree = "<group>"; };
+		92AF7D71089E2083BBA25E93 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		92AF7EB2C2295F36EC54B4DD /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		92AF7FA6C32057617164C509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AF73BEA5EADEF72F85D215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF7E020FE35C71A724031D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF7F21901FFF81BDE847B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92AF70BC2E8A9D85E3D48D32 /* Unstable Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				92AF711E1B25A0CD7B3FDE84 /* Info.plist */,
+				92AF7BBA3B2AF16459030926 /* Assets.xcassets */,
+				92AF7991500BADCFD10BEB6E /* LaunchScreen.storyboard */,
+				92AF7417B1E4D302D78380C3 /* AppDelegate.swift */,
+				92AF7A39910E18CD0747AC70 /* SceneDelegate.swift */,
+				92AF76869EDEF57D69D66E15 /* Main.storyboard */,
+				92AF7E2D12903E5B363660CC /* Presentation */,
+				92AF71C6B660D0C792068367 /* Domain */,
+			);
+			path = "Unstable Atoms";
+			sourceTree = "<group>";
+		};
+		92AF71C6B660D0C792068367 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				92AF78CCB010B6C5A84447E3 /* Game */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		92AF73736F019D49B7865F5B /* Unstable AtomsTests */ = {
+			isa = PBXGroup;
+			children = (
+				92AF72E5D7C8F0DD4E68F840 /* Info.plist */,
+				92AF79E8B2F2E200D6017D1D /* Unstable_AtomsTests.swift */,
+			);
+			path = "Unstable AtomsTests";
+			sourceTree = "<group>";
+		};
+		92AF78CCB010B6C5A84447E3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				92AF730D2DA2C5AA9BFE0D56 /* UnstableAtoms.swift */,
+				92AF7F9CF5F0956235C4E4EF /* Models */,
+				92AF7D51A72C9232BB41AD26 /* UnstableAtomsGame.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		92AF79462910E7A66D379257 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				92AF7BE11690B3D674157FE2 /* UnstableAtomViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		92AF79F984B3B651370E645D /* Unstable AtomsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92AF78991AA4DECDB6D55524 /* Info.plist */,
+				92AF7B9AE059B97CF46D6EC7 /* Unstable_AtomsUITests.swift */,
+			);
+			path = "Unstable AtomsUITests";
+			sourceTree = "<group>";
+		};
+		92AF7DF9835A3C8E0C1D3832 = {
+			isa = PBXGroup;
+			children = (
+				92AF7EDFBAB87EC4CCA69477 /* Products */,
+				92AF70BC2E8A9D85E3D48D32 /* Unstable Atoms */,
+				92AF73736F019D49B7865F5B /* Unstable AtomsTests */,
+				92AF79F984B3B651370E645D /* Unstable AtomsUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		92AF7E2D12903E5B363660CC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E86E281123410BFF007B8827 /* UnstableAtom */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		92AF7EDFBAB87EC4CCA69477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AF7CF1BD689EC3605A8820 /* Unstable Atoms.app */,
+				92AF742C49B758D06C1326AE /* Unstable AtomsTests.xctest */,
+				92AF73B8E158033C0C4C78B7 /* Unstable AtomsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AF7F9CF5F0956235C4E4EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92AF7D71089E2083BBA25E93 /* Coordinate.swift */,
+				92AF7A79C2AD1B0F0837A08E /* Player.swift */,
+				92AF7EB2C2295F36EC54B4DD /* Field.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E86E281123410BFF007B8827 /* UnstableAtom */ = {
+			isa = PBXGroup;
+			children = (
+				92AF7B4DF4A7C3988A80CBFA /* ViewController.swift */,
+				92AF79462910E7A66D379257 /* CollectionView */,
+			);
+			path = UnstableAtom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AF704012AFE996DAFBF706 /* Unstable AtomsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AF789E3EB26DFDAF59B03A /* Build configuration list for PBXNativeTarget "Unstable AtomsTests" */;
+			buildPhases = (
+				92AF71EF6219FC5ECCAF2D33 /* Sources */,
+				92AF7F21901FFF81BDE847B9 /* Frameworks */,
+				92AF76442B3CD90C6A8BDFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92AF70ED0D1175B57C18B83B /* PBXTargetDependency */,
+			);
+			name = "Unstable AtomsTests";
+			productName = "Unstable AtomsTests";
+			productReference = 92AF742C49B758D06C1326AE /* Unstable AtomsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92AF7764A496667EBCE9C5A9 /* Unstable Atoms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AF74FB925EE0B8EB957551 /* Build configuration list for PBXNativeTarget "Unstable Atoms" */;
+			buildPhases = (
+				92AF7E8FAFD03F05A2BE94C4 /* Sources */,
+				92AF7E020FE35C71A724031D /* Frameworks */,
+				92AF77A4A447FB9BDB258AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unstable Atoms";
+			productName = "Unstable Atoms";
+			productReference = 92AF7CF1BD689EC3605A8820 /* Unstable Atoms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92AF77FE58D98704E46536E5 /* Unstable AtomsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AF70DCE1013152F17629D4 /* Build configuration list for PBXNativeTarget "Unstable AtomsUITests" */;
+			buildPhases = (
+				92AF7618627BE38E3406501A /* Sources */,
+				92AF73BEA5EADEF72F85D215 /* Frameworks */,
+				92AF728D830406146C78F098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92AF7A12B727C762B9F11999 /* PBXTargetDependency */,
+			);
+			name = "Unstable AtomsUITests";
+			productName = "Unstable AtomsUITests";
+			productReference = 92AF73B8E158033C0C4C78B7 /* Unstable AtomsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AF7DD28C5B7AB9FD1A8397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Educanet;
+				TargetAttributes = {
+					92AF7764A496667EBCE9C5A9 = {
+						DevelopmentTeam = BXZCQ7UNDX;
+					};
+				};
+			};
+			buildConfigurationList = 92AF77214FAA753391C568AF /* Build configuration list for PBXProject "Unstable Atoms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92AF7DF9835A3C8E0C1D3832;
+			productRefGroup = 92AF7EDFBAB87EC4CCA69477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AF7764A496667EBCE9C5A9 /* Unstable Atoms */,
+				92AF704012AFE996DAFBF706 /* Unstable AtomsTests */,
+				92AF77FE58D98704E46536E5 /* Unstable AtomsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AF728D830406146C78F098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF76442B3CD90C6A8BDFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF77A4A447FB9BDB258AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF71AD996B7D672B5DBC0F /* Assets.xcassets in Resources */,
+				92AF7C762AA4CBB14796FB58 /* LaunchScreen.storyboard in Resources */,
+				92AF78CD457502D8F27F0969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AF71EF6219FC5ECCAF2D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF7E48E3258E637C73B7F5 /* Unstable_AtomsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF7618627BE38E3406501A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF75D67A46E6C770565190 /* Unstable_AtomsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF7E8FAFD03F05A2BE94C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF7950D3E09655ACE06A8D /* AppDelegate.swift in Sources */,
+				92AF7005546A21E71EA2F5D5 /* SceneDelegate.swift in Sources */,
+				92AF7264252D54B6627A192B /* ViewController.swift in Sources */,
+				92AF77CE25864B956061F7DB /* UnstableAtoms.swift in Sources */,
+				92AF76D409E82CCAAD6FD1E7 /* Coordinate.swift in Sources */,
+				92AF77CE43BD07C51FEEC864 /* Player.swift in Sources */,
+				92AF7C2CA8E7F2C6AAD7D65A /* Field.swift in Sources */,
+				92AF77CEBB8A780044AC5F73 /* UnstableAtomsGame.swift in Sources */,
+				92AF7063DABCABE2B1406EA8 /* UnstableAtomViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92AF70ED0D1175B57C18B83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92AF7764A496667EBCE9C5A9 /* Unstable Atoms */;
+			targetProxy = 92AF7869785BCA7E00389747 /* PBXContainerItemProxy */;
+		};
+		92AF7A12B727C762B9F11999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92AF7764A496667EBCE9C5A9 /* Unstable Atoms */;
+			targetProxy = 92AF7437B779D39D698B2E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92AF76869EDEF57D69D66E15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF7174D55941A985E75666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92AF7991500BADCFD10BEB6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF7FA6C32057617164C509 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AF70E53BE13E890174498C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unstable Atoms.app/Unstable Atoms";
+				INFOPLIST_FILE = "Unstable AtomsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Educanet.Unstable-AtomsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		92AF744455620750E99A1E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Unstable AtomsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Educanet.Unstable-AtomsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unstable Atoms";
+			};
+			name = Debug;
+		};
+		92AF77D3A3A7B2A653543890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BXZCQ7UNDX;
+				INFOPLIST_FILE = "Unstable Atoms/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Educanet.Unstable-Atoms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92AF796999A34251E847253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92AF79945438EAE6AF322B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92AF7B3A9B9A7A6ACBA6CCAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Unstable AtomsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Educanet.Unstable-AtomsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unstable Atoms";
+			};
+			name = Release;
+		};
+		92AF7D723AD842F5A1B82AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unstable Atoms.app/Unstable Atoms";
+				INFOPLIST_FILE = "Unstable AtomsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Educanet.Unstable-AtomsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		92AF7EA3088CBEF684626ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BXZCQ7UNDX;
+				INFOPLIST_FILE = "Unstable Atoms/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Educanet.Unstable-Atoms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AF70DCE1013152F17629D4 /* Build configuration list for PBXNativeTarget "Unstable AtomsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF744455620750E99A1E4B /* Debug */,
+				92AF7B3A9B9A7A6ACBA6CCAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AF74FB925EE0B8EB957551 /* Build configuration list for PBXNativeTarget "Unstable Atoms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF77D3A3A7B2A653543890 /* Debug */,
+				92AF7EA3088CBEF684626ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AF77214FAA753391C568AF /* Build configuration list for PBXProject "Unstable Atoms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF79945438EAE6AF322B57 /* Debug */,
+				92AF796999A34251E847253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AF789E3EB26DFDAF59B03A /* Build configuration list for PBXNativeTarget "Unstable AtomsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF70E53BE13E890174498C /* Debug */,
+				92AF7D723AD842F5A1B82AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92AF7DD28C5B7AB9FD1A8397 /* Project object */;
+}
