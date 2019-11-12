@@ -25,7 +25,7 @@ class AddItemController: UIViewController {
   
     
     @IBAction func AddTaskButton() {
-        viewController.addTask(taskName: taskName.text ?? "Task", taskDescription: taskDescription.text ?? "")
+        viewController.addTask(taskName: taskName.text ?? "Task", taskDescription: taskDescription.text ?? "yc")
 
         performSegue(withIdentifier: "setTaskListView", sender: nil)
         

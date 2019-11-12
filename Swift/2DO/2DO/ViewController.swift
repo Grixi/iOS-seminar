@@ -11,40 +11,40 @@ import UIKit
 var viewController = ViewController()
 
 class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSource{
+    override func viewDidLoad() {
+         super.viewDidLoad()
+       TableViewTasks.delegate = self
+       TableViewTasks.dataSource = self
+     }
     
-    public var tasks: Array<String> = []
+    var tasks: Array<String> = []
     
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewController.tasks.count
+        return tasks.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         
         
-        cell.textLabel?.text = viewController.tasks[indexPath.item]
+        cell.textLabel?.text = tasks[indexPath.item]
         
         return cell
     }
-    public func addTask(taskName: String, taskDescription: String){
-        print("Name: " + taskName)
+ 
 
+   public func addTask(taskName: String, taskDescription: String){
+        tasks.append("asd")
        
 
        
     }
-
-   
         
     
     
  
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-      TableViewTasks.delegate = self
-      TableViewTasks.dataSource = self
-    }
+ 
     
     
     @IBAction func OpenNewPage(_ sender: Any) {

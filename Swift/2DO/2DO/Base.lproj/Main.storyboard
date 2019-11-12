@@ -117,7 +117,7 @@
                                     <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="AddTaskButton:" destination="bQi-CE-B7f" eventType="touchUpInside" id="2zA-Fd-pky"/>
+                                    <action selector="AddTaskButton" destination="bQi-CE-B7f" eventType="touchUpInside" id="K4z-Fm-YjV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -147,8 +147,9 @@
                         <viewLayoutGuide key="safeArea" id="Aei-ed-XVl"/>
                     </view>
                     <connections>
-                        <outlet property="TaskDesc" destination="Zin-ie-o7J" id="4Zw-ce-7pj"/>
-                        <outlet property="TaskName" destination="YrT-wc-LLZ" id="rgs-qh-A29"/>
+                        <outlet property="taskDescription" destination="Zin-ie-o7J" id="zPk-v2-fxe"/>
+                        <outlet property="taskName" destination="YrT-wc-LLZ" id="Aaq-r4-lLP"/>
+                        <segue destination="Yye-4g-Ugt" kind="presentation" identifier="setTaskListView" modalPresentationStyle="fullScreen" id="ZYf-8o-Ce9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WjF-nL-bI8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
