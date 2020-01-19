@@ -58,3 +58,13 @@ var colorBox: String = ""
         self.dismiss(animated: true, completion: nil)}
 
 }
+
+
+
+
+
+
+
+enum Colors{
+    case red, ornage, green
+}

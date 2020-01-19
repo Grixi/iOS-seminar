@@ -1,0 +1,6 @@
+framework module Pods_AdamsNews {
+  umbrella header "Pods-AdamsNews-umbrella.h"
+
+  export *
+  module * { export * }
+}
